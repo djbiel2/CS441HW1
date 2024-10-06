@@ -36,7 +36,6 @@ cd ~/CS441HW1
 
 
 sbt "runMain Main"
-sbt "runMain Embedding_Trainer"
-sbt "runMain Embedding_Evaluator"
+
 
 Upload it to aws
