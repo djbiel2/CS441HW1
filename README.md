@@ -32,6 +32,9 @@ sudo yum install java-11-amazon-corretto -y
 java -version
 cd ~/CS441HW1
 
+https://youtu.be/0Two1IEJaKo
+Note, I blanked out in end of recording.. to run tests type in sbt test
+
 
 
 
