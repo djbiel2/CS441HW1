@@ -25,6 +25,16 @@ Edit the application.conf to your specific configurations.
 
 Running the program
 
+curl -L https://www.scala-sbt.org/sbt-rpm.repo | sudo tee /etc/yum.repos.d/sbt.repo
+sudo yum install sbt -y
+sbt sbtVersion
+sudo yum install java-11-amazon-corretto -y
+java -version
+cd ~/CS441HW1
+
+
+
+
 sbt "runMain Main"
 sbt "runMain Embedding_Trainer"
 sbt "runMain Embedding_Evaluator"
